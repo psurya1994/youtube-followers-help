@@ -1,5 +1,5 @@
-%% Question by maistr09, Code by Surya Penmetsa
-% The flight path of a model rocket with mass 0.1 kg. During the first
+%% Question by Joseph, Code by Surya Penmetsa
+% Find the flight path of a model rocket with mass 0.1 kg. During the first
 % T(inital) 0.015 seconds, the rocket is propelled forward by the rocket
 % engine with a force of 16N. The rocket then flies up while slowing down
 % under teh force of gravity once the engine is switched off at T(inital)
@@ -24,7 +24,7 @@ previousVelocity = 0;
 presentHeight = 0;
 previousHeight = 0;
 dt = 0.001;
-timeInitial = 0.5;
+timeInitial = 0.3;
 
 for time = 0:dt:100;
     if(time < timeInitial)
