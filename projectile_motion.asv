@@ -1,0 +1,19 @@
+% projectile motion
+clear all;
+clc;
+
+t = 0:0.1:10; % time vector
+u = 20; % initial velocity
+angle = 60; %ang
+theta = 
+g = 9.8;
+
+
+x = ux*t;
+y = uy*t - 0.5*g*t.^2;
+
+for i=1:size(x,2)
+    plot(x(i),y(i),'r*');
+    %hold on; % comment if you don't want to see the 
+    pause(0.1);
+end
